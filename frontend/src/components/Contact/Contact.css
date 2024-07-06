@@ -1,0 +1,66 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 800px;
+  padding: 30px 50px;
+  margin: 50px auto;
+  border-radius: 6px;
+  background: rgb(248, 237, 237);
+}
+
+.contact img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.contact-itemfield {
+  margin-top: 20px;
+  width: 100%;
+  color: black;
+  font-size: 18px;
+}
+
+.contact-itemfield h1 {
+  margin-bottom: 10px;
+}
+
+.contact-itemfield hr {
+  margin-bottom: 10px;
+}
+
+.bold-paragraph {
+  font-weight: 600;
+}
+.contact-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.contact-row input {
+  width: 200px;
+  flex: 0.5;
+  border: none;
+  outline: none;
+  color: rgb(97, 97, 97);
+  font-size: 16px;
+}
+
+.contact-itemfield h3{
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.contact-itemfield button{
+  width: 75px;
+  height: 25px;
+  border-radius: 75px;
+  font-size: 12px;
+  font-weight: 500;
+  background: rgb(255, 177, 177);
+  color: white;
+  border: none;
+}
