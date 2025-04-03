@@ -72,9 +72,34 @@ Add/remove products directly to MongoDB Atlas
 
 ## 🗂️ Project Structure
 
-- `/frontend` - Main website for customers
-- `/admin` - Admin panel to manage products
-- `/backend` - REST API and database connection
+HomePilotApp/
+├── AppDelegate.swift               # App lifecycle & Firebase init
+├── SceneDelegate.swift            # Scene management
+├── Main.storyboard                # Visual UI structure (6 screens)
+├── Assets.xcassets                # Image and asset catalog
+├── GoogleService-Info.plist       # Firebase configuration file
+├── Models/
+│   ├── Device.swift               # Device logic & metrics
+│   ├── DeviceMetric.swift         # Struct for dynamic metrics
+│   ├── DeviceUsageResult.swift    # Struct for usage results
+│   └── User.swift                 # Core Data User entity
+├── Views/
+│   ├── SourceCardCell.swift       # UI for electricity/water/gas summaries
+│   ├── DeviceCardCell.swift       # UI for device items
+│   ├── DynamicMetricView.swift    # Custom reusable metric input view
+│   └── MarkerView.swift           # Custom marker for charts
+├── Controllers/
+│   ├── HomeViewController.swift   # Main screen logic
+│   ├── DeviceViewController.swift # Device metrics entry and logic
+│   ├── ChartsViewController.swift # Chart visualization with Swift Charts
+│   ├── LoginViewController.swift  # Email + Google Sign-In logic
+│   ├── SignUpViewController.swift # New user registration
+│   └── TabBarController.swift     # Navigation and tab handling
+├── CoreData/
+│   ├── HomePilotApp.xcdatamodeld  # Core Data schema (User, DeviceUsage)
+│   └── CoreDataManager.swift      # Singleton for Core Data CRUD ops
+└── Extensions/
+    └── Notification.Name+Ext.swift # For custom NotificationCenter updates
 
 ---
 
