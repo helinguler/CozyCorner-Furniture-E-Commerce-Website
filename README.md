@@ -30,6 +30,7 @@ Interactive cart with total calculation and promo code option
 
 ### 🧑‍💼 Admin Panel
 Add/remove products directly to MongoDB Atlas
+
 <img width="580" alt="Ekran Resmi 2025-04-03 21 11 54" src="https://github.com/user-attachments/assets/7d4ac2b7-3da5-4fa1-82c0-2af3f0d1c271" />
 <img width="535" alt="Ekran Resmi 2025-04-03 21 12 09" src="https://github.com/user-attachments/assets/b2571278-7559-4679-b355-cd0d959c3ddb" />
 
@@ -112,5 +113,5 @@ npm run dev
 ## 👩🏻‍💻 Developer
 
 Helin Güler
-🔗 LinkedIn
-🐙 GitHub
+- [LinkedIn](https://www.linkedin.com/in/helin-guler)  
+- [GitHub](https://github.com/helinguler)
